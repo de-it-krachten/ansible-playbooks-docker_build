@@ -1,0 +1,8 @@
+---
+
+# Generic
+generic:
+  playbook: ansible-playbooks-docker_build
+  playbook_short: ansible-playbooks-docker_build
+  description: |
+    << update here >>
