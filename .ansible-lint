@@ -1,0 +1,7 @@
+---
+exclude_paths:
+  - roles/docker/
+  - roles/docker_build/
+  - roles/docker_compose/
+  - roles/firewall/
+  - roles/python/
