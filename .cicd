@@ -190,6 +190,14 @@ ci_templates:
     src: github/templates/ci-self-hosted.yml
     dest: .github/workflows/ci.yml
     when: github_runner_self_hosted
+  release.yml:
+    src: github/templates/release.yml
+    dest: .github/workflows/release.yml
+    when: github_runner_cloud
+  releaserc.yml:
+    src: github/templates/releaserc.yml
+    dest: .releaserc.yml
+    when: github_runner_cloud
   gitlab-ci.yml:
     src: gitlab/templates/gitlab-ci.yml
     dest: .gitlab-ci.yml
